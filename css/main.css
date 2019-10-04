@@ -36,9 +36,12 @@ a:not(no-highlight) {
 
 [rel="external"] {
   background-color: #2694d8;
-
 }
+
 ol > li:first-of-type {
+  color: #719e47;
+}
+ol > li:last-of-type {
   color: #2aa198;
 }
 
