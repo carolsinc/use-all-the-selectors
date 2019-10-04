@@ -1,4 +1,4 @@
-body {
+html {
   background-color: #fdf6e3;
 }
 header, footer {
@@ -13,7 +13,7 @@ nav ul {
 .wrapper {
   background-color: #eee8d5;
 }
-.contents, .favs, .facts, .types{
+#contents, #favs, #facts, #types{
   color: #93a1a1
 }
 .wrapper > .dfn {
@@ -33,4 +33,10 @@ ol > li:first-of-type {
 }
 .types > li:nth-child(odd) {
   background-color: #657ba3;
+}
+.types > li:nth-child(even) {
+  background-color: #586e75;
+}
+.types > li:nth-child(3n) {
+  background-color: #d04b16;
 }
